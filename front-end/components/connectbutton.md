@@ -1,9 +1,9 @@
 ---
 description: UI Component for Connecting to Plug Wallet
-icon: v
+icon: tally-4
 ---
 
-# Page 1
+# connectButton
 
 ### `ConnectPlugButton.tsx`&#x20;
 

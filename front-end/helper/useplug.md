@@ -1,6 +1,6 @@
 ---
 description: React Hook for Connecting to the Plug Wallet and Creating Canister Actors
-icon: tally-4
+icon: tally-1
 ---
 
 # usePlug
