@@ -6,6 +6,7 @@
   * [Chat Window](front-end/chat-window.md)
   * [Message Input](front-end/message-input.md)
   * [Sidebar](front-end/sidebar.md)
+  * [usePlug](front-end/useplug.md)
 * [Back-end](back-end/README.md)
   * [Cargo](back-end/cargo.md)
   * [account](back-end/account.md)
