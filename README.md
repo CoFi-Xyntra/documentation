@@ -4,9 +4,11 @@ icon: hand-wave
 
 # Welcome
 
-#### ![](.gitbook/assets/d44.png)
+####
 
 #### Welcome to the CoFi Documentation! 🚀
+
+<figure><img src=".gitbook/assets/d44.png" alt=""><figcaption></figcaption></figure>
 
 Welcome to the official documentation for CoFi, your intelligent DeFi Copilot.
 
