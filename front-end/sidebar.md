@@ -2,7 +2,7 @@
 icon: tally-3
 ---
 
-# Component - Sidebar
+# Sidebar
 
 #### Component Documentation: `Sidebar.tsx`
 

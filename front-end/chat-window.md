@@ -2,7 +2,7 @@
 icon: tally-1
 ---
 
-# Component - Chat Window
+# Chat Window
 
 #### Component Documentation: `ChatWindow` `.tsx`
 

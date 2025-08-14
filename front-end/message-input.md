@@ -2,7 +2,7 @@
 icon: tally-2
 ---
 
-# Component - Message Input
+# Message Input
 
 #### Component Documentation: `MessageInput.tsx`
 
