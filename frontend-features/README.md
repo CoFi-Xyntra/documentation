@@ -1,6 +1,10 @@
-# 2. Frontend Features
+---
+icon: '1'
+---
 
-<figure><img src=".gitbook/assets/55g.png" alt=""><figcaption></figcaption></figure>
+# Frontend Features
+
+<figure><img src="../.gitbook/assets/55g.png" alt=""><figcaption></figcaption></figure>
 
 ````markdown
 ## File Structure

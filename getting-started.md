@@ -1,5 +1,6 @@
 ---
 description: 'To compile and run the program, use:'
+icon: door-open
 ---
 
 # Getting Started
