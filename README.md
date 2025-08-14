@@ -4,7 +4,7 @@ icon: hand-wave
 
 # Welcome
 
-#### ![](<.gitbook/assets/Imagen de WhatsApp 2025-08-14 a las 01.13.45_9ee6c03kk8.jpg>)
+#### ![](.gitbook/assets/d44.png)
 
 #### Welcome to the CoFi Documentation! 🚀
 
