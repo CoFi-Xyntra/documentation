@@ -1,3 +1,4 @@
 # documentation
 
 test Update\
+[.](./ "mention")
