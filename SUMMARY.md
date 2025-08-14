@@ -7,6 +7,7 @@
   * [Message Input](front-end/message-input.md)
   * [Sidebar](front-end/sidebar.md)
   * [usePlug](front-end/useplug.md)
+  * [Page 1](front-end/page-1.md)
 * [Back-end](back-end/README.md)
   * [Cargo](back-end/cargo.md)
   * [account](back-end/account.md)
