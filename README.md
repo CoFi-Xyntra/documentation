@@ -1,5 +1,5 @@
 ---
-icon: hand-wave
+icon: crow
 ---
 
 # Welcome
