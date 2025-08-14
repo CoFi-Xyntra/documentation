@@ -90,10 +90,3 @@ export default function MessageInput() {
 4. Include character counter
 5. Add voice input support
 
-**Accessibility Checklist**
-
-* [x] Sufficient color contrast (text/background)
-* [x] Semantic form structure
-* [x] Visible focus indicators (via native browser focus)
-* [ ] ARIA labels for internationalization
-* [ ] Screen reader support (add aria attributes)
