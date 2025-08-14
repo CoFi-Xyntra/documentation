@@ -2,13 +2,11 @@
 icon: '1'
 ---
 
-# Frontend Features
+# Front-end
 
-<figure><img src="../.gitbook/assets/55g.png" alt=""><figcaption></figcaption></figure>
+### File Structure
 
-````markdown
-## File Structure
-```tsx
+```typescript
 // Import dependencies
 import React, { useState, useRef, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
@@ -61,7 +59,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </ThirdwebProvider>
   </React.StrictMode>
 );
-````
+```
 
 ### Core Components
 
