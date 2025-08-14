@@ -1,6 +1,3 @@
 # Table of contents
 
 * [documentation](README.md)
-* [Page 1 test](page-1-test.md)
-* [testPage](testpage.md)
-* [Page 1](page-1.md)
