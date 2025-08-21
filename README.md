@@ -12,7 +12,7 @@ Built on the **Internet Computer Protocol (ICP)**, Xyntra unifies multiple block
 
 ## 🌌 Why Xyntra? The DeFi Dilemma Solved
 
-In the wild frontier of Web3, DeFi is powerful but perilous: complex UIs, fragmented chains, and steep learning curves scare off millions. Xyntra bridges this gap by integrating advanced GPT-like AI models with on-chain execution. Our mission? Democratize DeFi, making it accessible, secure, and fun for everyone—from crypto newbies to seasoned traders. Key Concerns We Tackle:
+In Web3, DeFi is powerful but risky. Complicated interfaces, many separate blockchains, and steep learning curves keep millions of people away. Xyntra bridges this gap by integrating advanced GPT-like AI models with on-chain execution. Our mission? Democratize DeFi, making it accessible, secure, and fun for everyone—from crypto newbies to seasoned traders. Key Concerns We Tackle:
 
 * Usability Barriers: Turn "Swap 1 ETH for USDC" into a simple chat command.
 * Interoperability Issues: ICP's chain-key magic lets you interact with Bitcoin, Ethereum, and more from one unified platform.
