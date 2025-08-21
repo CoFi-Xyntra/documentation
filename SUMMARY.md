@@ -9,6 +9,8 @@
     * [Message Input](front-end/message-input.md)
     * [Sidebar](front-end/sidebar.md)
     * [connectButton](front-end/page-1.md)
+    * [About Section](front-end/components/about-section.md)
+    * [Docummentation Section](front-end/components/docummentation-section.md)
   * [Helper](front-end/helper/README.md)
     * [usePlug](front-end/useplug.md)
 * [Back-end](back-end/README.md)

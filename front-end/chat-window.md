@@ -1,5 +1,5 @@
 ---
-icon: tally-1
+icon: lightbulb-exclamation-on
 ---
 
 # Chat Window

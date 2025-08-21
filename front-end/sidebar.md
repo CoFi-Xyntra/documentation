@@ -1,5 +1,5 @@
 ---
-icon: tally-3
+icon: lightbulb-exclamation-on
 ---
 
 # Sidebar

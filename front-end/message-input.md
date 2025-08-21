@@ -1,5 +1,5 @@
 ---
-icon: tally-2
+icon: lightbulb-exclamation-on
 ---
 
 # Message Input

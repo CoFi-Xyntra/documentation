@@ -1,6 +1,6 @@
 ---
 description: UI Component for Connecting to Plug Wallet
-icon: tally-4
+icon: lightbulb-exclamation-on
 ---
 
 # connectButton
