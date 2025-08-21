@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [🚀 Welcome](README.md)
 * [Getting Started](getting-started.md)
 * [Front-end](front-end/README.md)
   * [Main](front-end/main.md)
