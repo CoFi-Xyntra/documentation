@@ -35,12 +35,31 @@ Xyntra's conversational AI turns complex actions into effortless dialogues. Here
 1. Connect Your Wallet: Securely link your ICP-compatible wallet via our interface.
 2. Chat with Xyntra: Type or speak your DeFi desires—e.g., "Swap $XYN for ckETH and stake it."
 3. AI Magic Happens: Our GPT model parses your intent, generates the contract call, and prompts for confirmation.
-4. On-Chain Execution: Transactions fire on ICP's tamperproof canisters, unified across networks.
-5. Mission Accomplished: Get instant feedback, receipts, and portfolio updates in the chat. All built with modular JavaScript architecture for easy expansions. Check our codebase in the copilot-finance repo.
+4. On-Chain Execution: Transactions are executed on ICP's tamper-proof canisters, unified across all networks.
+5. Mission Accomplished: Get instant feedback, receipts, and portfolio updates right in the chat. Everything is built with a modular JavaScript setup, so it’s easy to expand. You can find the codebase in the copilot-finance repository.
 
 ## 📈 Roadmap: Phased Launch to the Stars
 
-We're building Xyntra in deliberate phases to ensure rock-solid delivery: **Phase 1: Foundations (Complete)** - LLM Bot Creation: Core AI chat interface ready. - Wallet Integration: Secure connections for multi-chain access. **Phase 2: Core DeFi Actions (In Progress)** - Token Transfers & AI Contract Execution: Chat-driven on-chain ops. - $XYN Token Launch: Our native utility token. - Tokenomics Design: Balanced for growth (details below). **Phase 3: Advanced Trading (Planned)** - LP & Swap Smart Contracts: Inject liquidity ($XYN/ckETH pairs) and enable seamless swaps. **Phase 4: Yield Optimization (Planned)** - Staking Mechanisms: Stake $XYN for rewards, governance, and boosts. Target Mainnet Launch: Q2 2026. Follow our progress on GitHub.
+#### We're building Xyntra in deliberate phases to ensure rock-solid delivery:&#x20;
+
+**Phase 1: Foundations (Complete)** :\
+\- LLM Bot Creation: Core AI chat interface ready. \
+\- Wallet Integration: Secure connections for multi-chain access. \
+\
+**Phase 2: Core DeFi Actions (In Progress)** :\
+\- Token Transfers & AI Contract Execution: Chat-driven on-chain ops. \
+\- $XYN Token Launch: Our native utility token. \
+\- Tokenomics Design: Balanced for growth (details below). \
+\
+**Phase 3: Advanced Trading (Planned)** :\
+\- LP & Swap Smart Contracts: Inject liquidity ($XYN/ckETH pairs) \
+\- Enable seamless swaps. \
+\
+**Phase 4: Yield Optimization (Planned)** :\
+\- Staking Mechanisms: Stake $XYN for rewards, governance, and boosts. \
+\- Target Mainnet Launch: Q2 2026. \
+\
+**Follow our progress on GitHub.**
 
 ## 💰 Tokenomics: Fueling the Xyntra Ecosystem
 
