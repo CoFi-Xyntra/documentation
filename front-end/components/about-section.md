@@ -39,39 +39,15 @@ interface CompanyStat {
 }
 ```
 
-### UI Sections
+### Styling
 
-#### 1. Header Section
+The component uses Tailwind CSS for styling with the following notable features:
 
-* Displays the company name with gradient styling
-* Provides a brief description of the company's mission
-
-#### 2. Company Statistics
-
-* Renders 4 statistical indicators in a responsive grid
-* Each stat includes an icon, value, and label
-* Features hover effects and transitions
-
-#### 3. Mission Statement
-
-* Displays the company's mission in a styled container
-* Uses gradient background with border effects
-
-#### 4. Team Section
-
-* Features team member profiles in a responsive grid
-* Each profile includes:
-  * Profile image (placeholder with initials)
-  * Name and role
-  * Biography
-  * Specialty tags
-  * Social media links (LinkedIn and Twitter)
-  * Hover effects and animations
-
-#### 5. Call-to-Action
-
-* Encourages visitors to join the team
-* Includes a styled button that links to job openings
+* Gradient backgrounds (`bg-gradient-to-*`)
+* Backdrop blur effects (`backdrop-blur-sm`)
+* Border transitions on hover
+* Responsive grid layouts
+* Text gradients for emphasis
 
 ### Usage
 
