@@ -218,24 +218,24 @@ npm start
 
 ***
 
-### 9️⃣ Ollama + DeepSeek Integration
+### 9️⃣ Ollama + Llama-3.1-8B Integration
 
-This project also integrates **Ollama** with **DeepSeek** for AI-powered features.
+This project also integrates **Ollama** with Llama-3.1-8B for AI-powered features.
 
 #### 9.1 Install Ollama
 
 Follow installation instructions from [https://ollama.ai](https://ollama.ai/).
 
-#### 9.2 Pull the DeepSeek model
+#### 9.2 Pull the Llama-3.1-8B  model
 
 ```bash
-ollama pull deepseek
+ollama pull Llama-3.1-8B
 ```
 
-#### 9.3 Running DeepSeek locally
+#### 9.3 Running Llama-3.1-8B  locally
 
 ```bash
-ollama run deepseek
+ollama run Llama-3.1-8B
 ```
 
 
