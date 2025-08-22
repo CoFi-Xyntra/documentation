@@ -4,84 +4,69 @@ icon: lightbulb-exclamation-on
 
 # Navbar
 
-Here's the English documentation for the Navbar component:
+The `Navbar` component is a responsive navigation bar built with **React** and **Tailwind CSS**. It supports both desktop and mobile views, includes animated UI effects, and allows dynamic navigation between different sections of the page. This component also features a scroll effect that changes the navbar's background when the user scrolls down the page.
 
-```react
-/**
- * Fixed Navigation Bar Component with Responsive Design
- * 
- * A sticky navigation bar that transitions styles on scroll and provides
- * smooth navigation between application sections. Features both desktop
- * and mobile-responsive layouts with a toggleable mobile menu.
- * 
- * @component
- * @param {Object} props - Component properties
- * @param {Function} props.onSectionClick - Callback function triggered when navigation items are clicked
- * @param {string} props.currentSection - Currently active section identifier
- * 
- * @state {boolean} isScrolled - Tracks if user has scrolled past 20px for style changes
- * @state {boolean} isMobileMenuOpen - Controls mobile menu visibility
- * 
- * @features
- * - Scroll-responsive design with backdrop blur effect
- * - Mobile-first responsive layout with breakpoints
- * - Animated logo with gradient and status indicator
- * - Active section highlighting
- * - Smooth transitions and hover animations
- * - Accessible mobile menu with toggle animation
- * 
- * @breakpoints
- * - sm: 640px+ (Shows logo text, adjusts sizing)
- * - md: 768px+ (Shows desktop navigation)
- * 
- * @navigationItems
- * Contains array of navigation objects with:
- * - id: Section identifier
- * - label: Display text
- * - icon: Emoji visual indicator
- * 
- * @classes
- * Uses Tailwind CSS for styling with custom gradients and transitions
- */
-```
+***
 
-Key Features Explained:
+#### **Props**
 
-1. **Scroll Behavior**:
+* **`onSectionClick: (section: string) => void`**
+  * A callback function that is triggered when a navigation item is clicked. It receives the section ID as a parameter.
+* **`currentSection: string`**
+  * The ID of the current active section, used to highlight the selected navigation item.
 
-* Changes from transparent to semi-opaque background after 20px scroll
-* Adds backdrop blur effect and border for glassmorphism effect
+***
 
-2. **Responsive Design**:
+#### **Structure**
 
-* Mobile menu (hidden on md+ screens)
-* Conditional logo text visibility
-* Adaptive spacing and sizing
+* **Logo Area**
+  * Displays the brand logo and name.
+  * Clicking the logo navigates to the **Home** section.
+* **Desktop Navigation**
+  * Visible on screens `md` and above.
+  * Displays navigation items horizontally.
+* **Mobile Navigation**
+  * Accessible via a hamburger menu button on small screens.
+  * Expands a vertical list of navigation items.
 
-3. **Interactive Elements**:
+***
 
-* Hover effects on all interactive items
-* Active state highlighting with cyan accent color
-* Animated logo with scale transformation on hover
-* Live status indicator (green dot)
+#### **Hooks Used**
 
-4. **Mobile Menu**:
+* **`useState`**
+  * `isScrolled`: Tracks if the page has been scrolled.
+  * `isMobileMenuOpen`: Controls visibility of the mobile menu.
+* **`useEffect`**
+  * Adds/removes scroll listener for background change effect.
 
-* Slides down with backdrop blur
-* Closes automatically on selection
-* Mirror desktop navigation items
+***
 
-5. **Accessibility**:
+#### **Styling**
 
-* Semantic HTML structure
-* ARIA-friendly toggle buttons
-* Responsive touch targets
+* Built with **Tailwind CSS** utility classes.
+* Includes transitions and hover animations for a smooth user experience.
+* Uses gradient backgrounds and semi-transparent overlays for a modern look.
 
-Usage Example:
+***
 
-```jsx
-<Navbar 
-  onSectionClick={(section) => handleNavigation(section)}
-  currentSection={activeSection}
-/>
+#### **Usage Example**
+
+```tsx
+import { Navbar } from './Navbar';
+
+const App = () => {
+  const [currentSection, setCurrentSection] = useState('home');
+
+  const handleSectionClick = (section: string) => {
+    setCurrentSection(section);
+    document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  return (
+    <>
+      <Navbar onSectionClick={handleSectionClick} currentSection={currentSection} />
+      {/* Your page sections here */}
+    </>
+  );
+};
 ```
